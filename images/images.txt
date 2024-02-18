@@ -1,0 +1,1 @@
+print("This folder is for images")
