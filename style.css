@@ -1,0 +1,138 @@
+body {
+    background-color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Hind", sans-serif;
+}
+
+.weather-form {
+    margin: 20px;
+    position: relative;
+    top: 50px;
+}
+
+.dynamic-input {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    margin: 10px;
+    min-width: 20px;
+    width: 20px;
+    text-align: center;
+    display: inline;
+    background-color: white;
+    color: black;
+    font-family: "Hind", sans-serif;
+    border-bottom: 1px solid black;
+    animation: typing 1s steps(40) infinite alternate;
+}
+
+
+.dynamic-input:focus {
+    outline: none;
+}
+
+.dynamic-text {
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+}
+
+
+.card{
+    background-color: white; 
+    position: relative;
+    top: 70px;
+    padding: 20px;
+    min-width: 300px;
+    color: black;
+    text-align: center;
+    display: inline-flex;
+}
+
+.temp-display {
+    font-size: 4rem;
+    font-weight: 500;
+    position: relative;
+    top: -50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.weather-img {
+    position: relative;
+    margin-left: 40px;
+    width: 128px;
+    height: 128px;
+}
+
+.main-info{
+    margin-right: 40px;
+    position: flex;
+}
+
+.other-info{
+    line-height: 10px;
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+
+.feels-like-display {
+    color: #33cccc;
+    font-weight: 500;
+    position: relative;
+    top: -140px;
+}
+
+.error-display {
+    position: relative;
+    left: 65px;
+    font-weight: 300;
+}
+
+.humidity-div, .wind-div, .max-temp-div, .min-temp-div{
+    margin-bottom: 12px;
+
+}
+
+.humidity-div img, .wind-div img, .max-temp-div img, .min-temp-div img {
+    margin-right: 3px; 
+    display: inline-block;
+    vertical-align: middle;
+    display: inline;
+}
+
+.humidity-div p, .wind-div p, .max-temp-div p, .min-temp-div p{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    display: inline;
+}
+
+.credit-footer {
+    text-align: center;
+    align-items: center;
+    line-height: 5px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.credit-footer p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.error-display{
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    color: #e63946;
+    position: absolute;
+    right: 63px;
+}

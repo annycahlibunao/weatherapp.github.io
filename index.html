@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">    
+    <link rel="icon" type="image/png" href="images/webicon.png">
+    <title>Weather App</title>
+</head>
+<body>
+     <form class="weather-form">
+        <p style="display: inline;" class="dynamic-text">The weather in </p><input type="text" class="dynamic-input" oninput="adjustInputSize(this)"><p style="display: inline;" class="dynamic-text" id="desc-display">is currently unknown.</p>
+     </form>
+     <div class="card" style="display:none">
+        <div class="main-info">
+            <p class="temp-display">°C</p>
+            <p class="feels-like-display">Feels like °C</p>
+        </div>
+        <div class="other-info">
+            <div class="humidity-div">
+                <img src="images/humidity.png" id="humidityImg">
+                <p class="humidity-display">%</p>
+            </div>
+            <div class="wind-div">
+                <img src="images/wind.png" id="windImg">
+                <p class="wind-display">km/hr</p>
+            </div>
+            <div class="max-temp-div">
+                <img src="images/maxTemp.png" id="maxTempImg">
+                <p class="max-temp-display">°C</p>
+            </div>
+            <div class="min-temp-div">
+                <img src="images/minTemp.png" id="minTempImg">
+                <p class="min-temp-display">°C</p>
+            </div>
+        </div>
+        <div class="main-img">
+            <img src="gifs/questiongif.gif" class="weather-img" alt="Weather Image">
+        </div>
+    </div>
+    <div class="error-msg"></div>
+
+    <footer class="credit-footer">
+        <p class="credit-name">Developed by Annycah Libunao</p>
+        <p class="credit-email">annycahlibunao08@gmail.com</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
