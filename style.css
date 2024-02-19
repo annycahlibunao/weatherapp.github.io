@@ -136,3 +136,60 @@ p {
     position: absolute;
     right: 63px;
 }
+
+.credit-button{
+    position: relative;
+    font-family: "Hind", sans-serif;
+    border: 1px solid black;
+    color: black;
+    font-weight: 300;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    padding: 5px 25px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.credit-button:hover{
+    background-color: black;
+    color: white;
+}
+
+.link-container {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+}
+
+a {
+    font-family: "Hind", sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.freepik-links{
+    float: left;
+    margin-bottom: 50px;
+}
+
+
+.freepik-links h2, .pixel-perfect-links h2 {
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    list-style-position: inside;
+    column-gap: 15px;
+    position: relative;
+    left: -15px;
+}
