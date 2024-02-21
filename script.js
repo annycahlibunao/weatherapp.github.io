@@ -62,7 +62,7 @@ function displayWeatherInfo(data){
     tempDisplay.textContent = `${weatherTemp}°C`;
     feelsLikeDisplay.textContent = `Feels like ${feelTemp}°C`;
     humidityDisplay.textContent = `${humidity}%`;
-    windDisplay.textContent = `${windSpeed}km/hr`;
+    windDisplay.textContent = `${windSpeed}m/s`;
     maxTempDisplay.textContent = `${maxTemp}°C`;
     minTempDisplay.textContent = `${minTemp}°C`;
 
